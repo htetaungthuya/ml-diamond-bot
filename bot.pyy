@@ -1,0 +1,81 @@
+from telegram import Update, ReplyKeyboardMarkup
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+
+TOKEN = "7635809617:AAFd3pjOZo3pkoSpMIZwU2_OURgOsQlhQy"
+ADMIN_ID = 7533465237 # your telegram id
+
+def start(update: Update, context: CallbackContext):
+    keyboard = [["💎 Price List"], ["📝 Order"]]
+    update.message.reply_te        "ML Diamond Shop မှ ကြိုဆိုပါတယ် 🙏",
+        reply_markup=ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+    )
+
+def price(update, context):
+    update.message.reply_text(
+        "📢 Today Update Price 📢\n\n"
+        "💎 Weekly Pass\n"
+        "🌌🌌🌌🌌🌌🌌\n\n"
+        "⭐️ TG Premium 1 Month – 20,000 Ks\n\n"
+        "🎁 Monthly Epic Bundle – 15,500 Ks\n"
+        "🎁 Weekly Elite Bundle – 3,100 Ks\n\n"
+        "━━━━━━━━━━━━━━\n"
+        "💬 Contact – @Ryo_h2"
+    )
+
+def order(update, context):
+    update.message.reply_text("📝 ML ID + Server ပို့ပါ\nဥပမာ: 12345678 (1234)")
+    context.user_data["step"] = "mlid"
+
+def text_handler(update, context):
+    step = context.user_data.get("step")
+
+    if update.message.text == "💎 Price List":
+        price(update, context)
+        return
+
+    if update.message.text == "📝 Order":
+        order(update, context)
+        return
+
+    if step == "mlid":
+        context.user_data["mlid"] = update.message.text
+        update.message.reply_text("💎 Diamond amount ပို့ပါ")
+        context.user_data["step"] = "amount"
+
+    elif step == "amount":
+        context.user_data["amount"] = update.message.text
+        update.message.reply_text("💸 Payment screenshot ပို့ပါ")
+        context.user_data["step"] = "payment"
+
+def photo_handler(update, context):
+    if context.user_data.get("step") == "payment":
+        data = context.user_data
+        context.bot.send_message(
+            chat_id=ADMIN_ID,
+            text=(
+                "🆕 New Order\n\n"
+                f"ML ID: {data['mlid']}\n"
+                f"Amount: {data['amount']}\n"
+                f"User: @{update.message.from_user.username}"
+            )
+        )
+        context.bot.send_photo(
+            chat_id=ADMIN_ID,
+            photo=update.message.photo[-1].file_id
+        )
+
+        update.message.reply_text("✅ Order လက်ခံပြီးပါပြီ\nAdmin စစ်ပြီးလုပ်ပေးပါမယ်")
+        context.user_data.clear()
+
+def main():
+    updater = Updater(TOKEN)
+    dp = updater.dispatcher
+
+    dp.add_handler(CommandHandler("start", start))
+    dp.add_handler(MessageHandler(Filters.text & ~Filters.command, text_handler))
+    dp.add_handler(MessageHandler(Filters.photo, photo_handler))
+
+    updater.start_polling()
+    updater.idle()
+
+main()

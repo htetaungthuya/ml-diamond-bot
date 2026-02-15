@@ -1,0 +1,100 @@
+2025-08-21 17:17:56 UTC
+Alternative_Saves_Android_Port
+Ren'Py 8.3.4.24120703
+ 
+
+
+Manufacturer OPPO Model PDBM00
+Android Version: 9
+Device Arch:  android-arm64_v8a
+
+Screen diagonal is 5.41346700368627 inches.
+Version: Ren'Py 8.3.4.24120703
+Mobile search paths: /data/user/0/yukis_life_rus.pornoisland.site/files/game /storage/emulated/0/Android/data/yukis_life_rus.pornoisland.site/files/game /storage/emulated/0/Android/data/yukis_life_rus.pornoisland.site/files/../../../../Documents/Admin_Island/yukis_life_rus.pornoisland.site/game
+Early init took 0.50s
+Early init took 0.50s
+Loading error handling took 0.20s
+Loading error handling took 0.20s
+Loading script took 0.81s
+Loading script took 0.81s
+Saving to /storage/emulated/0/Android/data/yukis_life_rus.pornoisland.site/files/../../../../Documents/Admin_Island/yukis_life_rus.pornoisland.site
+Loading save slot metadata took 0.12s
+Loading save slot metadata took 0.12s
+Loading persistent took 0.00s
+Loading persistent took 0.00s
+Set script version to: (8, 3, 4)
+Running init code took 0.24s
+Running init code took 0.24s
+Loading analysis data took 0.17s
+Loading analysis data took 0.17s
+Analyze and compile ATL took 0.03s
+Analyze and compile ATL took 0.03s
+Reloading save slot metadata took 0.07s
+Reloading save slot metadata took 0.07s
+Index archives took 0.01s
+Index archives took 0.01s
+Dump and make backups took 0.00s
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.27s
+Initial gc took 0.27s
+DPI scale factor: 1.000000
+Creating interface object took 0.02s
+Creating interface object took 0.02s
+Cleaning stores took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.27s
+Init translation took 0.27s
+Build styles took 0.02s
+Build styles took 0.02s
+Load screen analysis took 0.14s
+Load screen analysis took 0.14s
+Analyze screens took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.37s
+Prepare screens took 0.37s
+Save pyanalysis. took 0.00s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Running _start took 0.00s
+Interface start took 0.51s
+Interface start took 0.51s
+
+Initializing gles2 renderer:
+primary display bounds: (0, 0, 1600, 664)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: "b'Imagination Technologies'"
+Renderer: b'PowerVR Rogue GE8320'
+Version: b'OpenGL ES 3.2 build 1.10@5130912'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1600, 720) drawable=(1600, 720)
+Could not open 'cache/shaders.txt':
+Maximum texture size: 4096x4096
+Total time until interface ready: 4.362913608551025s.
+Hid presplash.
+Cleaning stores took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.01s
+Init translation took 0.01s
+Build styles took 0.02s
+Build styles took 0.02s
+Load screen analysis took 0.13s
+Load screen analysis took 0.13s
+Analyze screens took 0.00s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.02s
+Running _start took 0.02s
+Pausing audio.
+Disabling periodic events.
+Saving.
+Freeing memory.

@@ -1,0 +1,109 @@
+Tue Sep  2 11:32:40 2025
+Unknown platform.
+Ren'Py 7.5.3.22090809
+ 
+
+Bootstrap to the start of init.init took 0.00s
+Bootstrap to the start of init.init took 0.00s
+Manufacturer OPPO model PDBM00
+Screen diagonal is 5.41346700369 inches.
+Early init took 0.39s
+Early init took 0.39s
+Android search paths: /storage/emulated/0/Android/data/incg.adaywithgwen/files/../../../../Documents/INCG_Saves/incg.adaywithgwen/game /data/data/incg.adaywithgwen/files/game
+Loader init took 0.01s
+Loader init took 0.01s
+Loading error handling took 0.10s
+Loading error handling took 0.10s
+Loading script took 0.62s
+Loading script took 0.62s
+Saving to /storage/emulated/0/Android/data/incg.adaywithgwen/files/../../../../Documents/INCG_Saves/incg.adaywithgwen
+Loading save slot metadata. took 0.02s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('dlopen failed: library "/data/user/0/incg.adaywithgwen/files/libsteam_api.so" not found',)
+Set script version to: (7, 1, 3)
+ - Init at scripts/character_images.rpyc:1 took 0.42570 s.
+Running init code took 0.78s
+Running init code took 0.78s
+Loading analysis data took 0.08s
+Loading analysis data took 0.08s
+Analyze and compile ATL took 0.03s
+Analyze and compile ATL took 0.03s
+Index archives took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.00s
+Dump and make backups. took 0.00s
+Cleaning cache took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.22s
+Initial gc. took 0.22s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.49s
+Init translation took 0.49s
+Build styles took 0.04s
+Build styles took 0.04s
+Load screen analysis took 0.11s
+Load screen analysis took 0.11s
+Analyze screens took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.56s
+Prepare screens took 0.56s
+Save pyanalysis. took 0.00s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.12s
+Save bytecode. took 0.12s
+Running _start took 0.01s
+Running _start took 0.01s
+Interface start took 0.76s
+Interface start took 0.76s
+
+Initializing gles renderer:
+primary display bounds: (0, 0, 1600, 664)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: 'Imagination Technologies'
+Renderer: 'PowerVR Rogue GE8320'
+Version: 'OpenGL ES 3.2 build 1.10@5130912'
+Display Info: None
+Number of texture units: 16
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gles renderer.
+Texture testing:
+- Hardware max texture size: 4096
+- 64px textures work.
+- 128px textures work.
+- 256px textures work.
+- 512px textures work.
+- 1024px textures work.
+- 2048px textures work.
+Screen sizes: virtual=(1920, 1080) physical=(1600, 720) drawable=(1600, 720)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Total time until interface ready: 5.14194607735s
+Hid presplash.
+Cleaning stores took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.01s
+Init translation took 0.01s
+Build styles took 0.04s
+Build styles took 0.04s
+Load screen analysis took 0.09s
+Load screen analysis took 0.09s
+Analyze screens took 0.00s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+Running _start took 0.01s

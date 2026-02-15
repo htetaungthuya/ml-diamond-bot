@@ -1,0 +1,361 @@
+Tue Mar  4 22:56:31 2025
+Alternative_Saves_Android_Port
+Ren'Py 8.1.1.23060707
+ 
+
+Bootstrap to the start of init.init. took 0.00s
+Bootstrap to the start of init.init. took 0.00s
+
+Manufacturer OPPO Model PDBM00
+Android Version: 9
+Device Arch:  android-arm64_v8a
+
+Screen diagonal is 5.41346700368627 inches.
+Version: Ren'Py 8.1.1.23060707
+Early init. took 0.20s
+Early init. took 0.20s
+Attempting to sync your saves to/from stock ANDROID_PUBLIC location...
+Android search paths: /storage/emulated/0/Android/data/incg.hhg/files/../../../../Documents/INCG_Saves/incg.hhg/game /data/data/incg.hhg/files/game
+Loader init. took 0.30s
+Loader init. took 0.30s
+Loading error handling. took 1.59s
+Loading error handling. took 1.59s
+Loading script. took 8.96s
+Loading script. took 8.96s
+Saving to /storage/emulated/0/Android/data/incg.hhg/files/../../../../Documents/INCG_Saves/incg.hhg
+Loading save slot metadata. took 0.38s
+Loading save slot metadata. took 0.38s
+Loading persistent. took 0.01s
+Loading persistent. took 0.01s
+ - Init at script/imports.rpyc:1 took 1.55959 s.
+Set script version to: (8, 0, 3)
+ - Init at 00images.rpyc:55 took 0.74423 s.
+ - Init at script/fishing rework.rpyc:248 took 0.76254 s.
+ - Init at script/defines.rpyc:58 took 0.28434 s.
+Running init code. took 4.01s
+Running init code. took 4.01s
+Loading analysis data. took 1.16s
+Loading analysis data. took 1.16s
+Analyze and compile ATL. took 0.40s
+Analyze and compile ATL. took 0.40s
+Reloading save slot metadata. took 0.27s
+Reloading save slot metadata. took 0.27s
+Index archives took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.00s
+Dump and make backups. took 0.00s
+Cleaning cache. took 0.00s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 1.90s
+Initial gc. took 1.90s
+DPI scale factor: 1.000000
+Creating interface object. took 0.01s
+Creating interface object. took 0.01s
+Cleaning stores took 0.00s
+Cleaning stores took 0.00s
+Init translation took 1.90s
+Init translation took 1.90s
+Build styles took 0.03s
+Build styles took 0.03s
+Load screen analysis took 1.06s
+Load screen analysis took 1.06s
+Analyze screens took 0.02s
+Analyze screens took 0.02s
+Save screen analysis took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 3.69s
+Prepare screens took 3.69s
+Save pyanalysis. took 0.00s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.02s
+Running _start took 0.02s
+Failure getting online file.
+Interface start. took 2.88s
+Interface start. took 2.88s
+
+Initializing gles2 renderer:
+primary display bounds: (0, 0, 1600, 664)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: "b'Imagination Technologies'"
+Renderer: b'PowerVR Rogue GE8320'
+Version: b'OpenGL ES 3.2 build 1.10@5130912'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1600, 720) drawable=(1600, 720)
+Precompiling shader ('remix.smoothstep_outline', 'renpy.texture', 'renpy.texture'):
+Traceback (most recent call last):
+  File "renpy/gl2\gl2shadercache.py", line 356, in load
+  File "renpy/gl2\gl2shadercache.py", line 278, in get
+  File "gl2shader.pyx", line 230, in renpy.gl2.gl2shader.Program.load
+  File "gl2shader.pyx", line 213, in renpy.gl2.gl2shader.Program.load_shader
+renpy.gl2.gl2shader.ShaderError: Compile failed.
+ERROR: 0:4: '' : syntax error (8) #line
+ERROR: 0:155: '' : syntax error (8) #line
+WARNING: 0:4:10 '"' is an invalid character.
+WARNING: 0:4:30 '"' is an invalid character.
+WARNING: 0:86:11 '"' is an invalid character.
+WARNING: 0:86:31 '"' is an invalid character.
+4 compilation warnings.
+
+2 compilation errors. No code generated.
+
+
+Precompiling shader ('remix.smoothstep_outline', 'renpy.geometry', 'renpy.texture'):
+Traceback (most recent call last):
+  File "renpy/gl2\gl2shadercache.py", line 356, in load
+  File "renpy/gl2\gl2shadercache.py", line 278, in get
+  File "gl2shader.pyx", line 230, in renpy.gl2.gl2shader.Program.load
+  File "gl2shader.pyx", line 213, in renpy.gl2.gl2shader.Program.load_shader
+renpy.gl2.gl2shader.ShaderError: Compile failed.
+ERROR: 0:4: '' : syntax error (8) #line
+ERROR: 0:155: '' : syntax error (8) #line
+WARNING: 0:4:10 '"' is an invalid character.
+WARNING: 0:4:30 '"' is an invalid character.
+WARNING: 0:86:11 '"' is an invalid character.
+WARNING: 0:86:31 '"' is an invalid character.
+4 compilation warnings.
+
+2 compilation errors. No code generated.
+
+
+Maximum texture size: 4096x4096
+Total time until interface ready: 29.932032346725464s.
+Screen sizes: virtual=(1920, 1080) physical=(1600, 664) drawable=(1600, 664)
+Precompiling shader ('remix.smoothstep_outline', 'renpy.texture', 'renpy.texture'):
+Traceback (most recent call last):
+  File "renpy/gl2\gl2shadercache.py", line 356, in load
+  File "renpy/gl2\gl2shadercache.py", line 278, in get
+  File "gl2shader.pyx", line 230, in renpy.gl2.gl2shader.Program.load
+  File "gl2shader.pyx", line 213, in renpy.gl2.gl2shader.Program.load_shader
+renpy.gl2.gl2shader.ShaderError: Compile failed.
+ERROR: 0:4: '' : syntax error (8) #line
+ERROR: 0:155: '' : syntax error (8) #line
+WARNING: 0:4:10 '"' is an invalid character.
+WARNING: 0:4:30 '"' is an invalid character.
+WARNING: 0:86:11 '"' is an invalid character.
+WARNING: 0:86:31 '"' is an invalid character.
+4 compilation warnings.
+
+2 compilation errors. No code generated.
+
+
+Precompiling shader ('remix.smoothstep_outline', 'renpy.geometry', 'renpy.texture'):
+Traceback (most recent call last):
+  File "renpy/gl2\gl2shadercache.py", line 356, in load
+  File "renpy/gl2\gl2shadercache.py", line 278, in get
+  File "gl2shader.pyx", line 230, in renpy.gl2.gl2shader.Program.load
+  File "gl2shader.pyx", line 213, in renpy.gl2.gl2shader.Program.load_shader
+renpy.gl2.gl2shader.ShaderError: Compile failed.
+ERROR: 0:4: '' : syntax error (8) #line
+ERROR: 0:155: '' : syntax error (8) #line
+WARNING: 0:4:10 '"' is an invalid character.
+WARNING: 0:4:30 '"' is an invalid character.
+WARNING: 0:86:11 '"' is an invalid character.
+WARNING: 0:86:31 '"' is an invalid character.
+4 compilation warnings.
+
+2 compilation errors. No code generated.
+
+
+Maximum texture size: 4096x4096
+Hid presplash.
+Screen sizes: virtual=(1920, 1080) physical=(1600, 720) drawable=(1600, 720)
+Precompiling shader ('remix.smoothstep_outline', 'renpy.texture', 'renpy.texture'):
+Traceback (most recent call last):
+  File "renpy/gl2\gl2shadercache.py", line 356, in load
+  File "renpy/gl2\gl2shadercache.py", line 278, in get
+  File "gl2shader.pyx", line 230, in renpy.gl2.gl2shader.Program.load
+  File "gl2shader.pyx", line 213, in renpy.gl2.gl2shader.Program.load_shader
+renpy.gl2.gl2shader.ShaderError: Compile failed.
+ERROR: 0:4: '' : syntax error (8) #line
+ERROR: 0:155: '' : syntax error (8) #line
+WARNING: 0:4:10 '"' is an invalid character.
+WARNING: 0:4:30 '"' is an invalid character.
+WARNING: 0:86:11 '"' is an invalid character.
+WARNING: 0:86:31 '"' is an invalid character.
+4 compilation warnings.
+
+2 compilation errors. No code generated.
+
+
+Precompiling shader ('remix.smoothstep_outline', 'renpy.geometry', 'renpy.texture'):
+Traceback (most recent call last):
+  File "renpy/gl2\gl2shadercache.py", line 356, in load
+  File "renpy/gl2\gl2shadercache.py", line 278, in get
+  File "gl2shader.pyx", line 230, in renpy.gl2.gl2shader.Program.load
+  File "gl2shader.pyx", line 213, in renpy.gl2.gl2shader.Program.load_shader
+renpy.gl2.gl2shader.ShaderError: Compile failed.
+ERROR: 0:4: '' : syntax error (8) #line
+ERROR: 0:155: '' : syntax error (8) #line
+WARNING: 0:4:10 '"' is an invalid character.
+WARNING: 0:4:30 '"' is an invalid character.
+WARNING: 0:86:11 '"' is an invalid character.
+WARNING: 0:86:31 '"' is an invalid character.
+4 compilation warnings.
+
+2 compilation errors. No code generated.
+
+
+Maximum texture size: 4096x4096
+Entered background. --------------------------------------------
+Entering foreground. -------------------------------------------
+Screen sizes: virtual=(1920, 1080) physical=(1600, 720) drawable=(1600, 720)
+Precompiling shader ('remix.smoothstep_outline', 'renpy.texture', 'renpy.texture'):
+Traceback (most recent call last):
+  File "renpy/gl2\gl2shadercache.py", line 356, in load
+  File "renpy/gl2\gl2shadercache.py", line 278, in get
+  File "gl2shader.pyx", line 230, in renpy.gl2.gl2shader.Program.load
+  File "gl2shader.pyx", line 213, in renpy.gl2.gl2shader.Program.load_shader
+renpy.gl2.gl2shader.ShaderError: Compile failed.
+ERROR: 0:4: '' : syntax error (8) #line
+ERROR: 0:155: '' : syntax error (8) #line
+WARNING: 0:4:10 '"' is an invalid character.
+WARNING: 0:4:30 '"' is an invalid character.
+WARNING: 0:86:11 '"' is an invalid character.
+WARNING: 0:86:31 '"' is an invalid character.
+4 compilation warnings.
+
+2 compilation errors. No code generated.
+
+
+Precompiling shader ('remix.smoothstep_outline', 'renpy.geometry', 'renpy.texture'):
+Traceback (most recent call last):
+  File "renpy/gl2\gl2shadercache.py", line 356, in load
+  File "renpy/gl2\gl2shadercache.py", line 278, in get
+  File "gl2shader.pyx", line 230, in renpy.gl2.gl2shader.Program.load
+  File "gl2shader.pyx", line 213, in renpy.gl2.gl2shader.Program.load_shader
+renpy.gl2.gl2shader.ShaderError: Compile failed.
+ERROR: 0:4: '' : syntax error (8) #line
+ERROR: 0:155: '' : syntax error (8) #line
+WARNING: 0:4:10 '"' is an invalid character.
+WARNING: 0:4:30 '"' is an invalid character.
+WARNING: 0:86:11 '"' is an invalid character.
+WARNING: 0:86:31 '"' is an invalid character.
+4 compilation warnings.
+
+2 compilation errors. No code generated.
+
+
+Maximum texture size: 4096x4096
+Failure getting online file.
+Failure getting online file.
+Screen sizes: virtual=(1920, 1080) physical=(1600, 664) drawable=(1600, 664)
+Precompiling shader ('remix.smoothstep_outline', 'renpy.texture', 'renpy.texture'):
+Traceback (most recent call last):
+  File "renpy/gl2\gl2shadercache.py", line 356, in load
+  File "renpy/gl2\gl2shadercache.py", line 278, in get
+  File "gl2shader.pyx", line 230, in renpy.gl2.gl2shader.Program.load
+  File "gl2shader.pyx", line 213, in renpy.gl2.gl2shader.Program.load_shader
+renpy.gl2.gl2shader.ShaderError: Compile failed.
+ERROR: 0:4: '' : syntax error (8) #line
+ERROR: 0:155: '' : syntax error (8) #line
+WARNING: 0:4:10 '"' is an invalid character.
+WARNING: 0:4:30 '"' is an invalid character.
+WARNING: 0:86:11 '"' is an invalid character.
+WARNING: 0:86:31 '"' is an invalid character.
+4 compilation warnings.
+
+2 compilation errors. No code generated.
+
+
+Precompiling shader ('remix.smoothstep_outline', 'renpy.geometry', 'renpy.texture'):
+Traceback (most recent call last):
+  File "renpy/gl2\gl2shadercache.py", line 356, in load
+  File "renpy/gl2\gl2shadercache.py", line 278, in get
+  File "gl2shader.pyx", line 230, in renpy.gl2.gl2shader.Program.load
+  File "gl2shader.pyx", line 213, in renpy.gl2.gl2shader.Program.load_shader
+renpy.gl2.gl2shader.ShaderError: Compile failed.
+ERROR: 0:4: '' : syntax error (8) #line
+ERROR: 0:155: '' : syntax error (8) #line
+WARNING: 0:4:10 '"' is an invalid character.
+WARNING: 0:4:30 '"' is an invalid character.
+WARNING: 0:86:11 '"' is an invalid character.
+WARNING: 0:86:31 '"' is an invalid character.
+4 compilation warnings.
+
+2 compilation errors. No code generated.
+
+
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1600, 720) drawable=(1600, 720)
+Precompiling shader ('remix.smoothstep_outline', 'renpy.texture', 'renpy.texture'):
+Traceback (most recent call last):
+  File "renpy/gl2\gl2shadercache.py", line 356, in load
+  File "renpy/gl2\gl2shadercache.py", line 278, in get
+  File "gl2shader.pyx", line 230, in renpy.gl2.gl2shader.Program.load
+  File "gl2shader.pyx", line 213, in renpy.gl2.gl2shader.Program.load_shader
+renpy.gl2.gl2shader.ShaderError: Compile failed.
+ERROR: 0:4: '' : syntax error (8) #line
+ERROR: 0:155: '' : syntax error (8) #line
+WARNING: 0:4:10 '"' is an invalid character.
+WARNING: 0:4:30 '"' is an invalid character.
+WARNING: 0:86:11 '"' is an invalid character.
+WARNING: 0:86:31 '"' is an invalid character.
+4 compilation warnings.
+
+2 compilation errors. No code generated.
+
+
+Precompiling shader ('remix.smoothstep_outline', 'renpy.geometry', 'renpy.texture'):
+Traceback (most recent call last):
+  File "renpy/gl2\gl2shadercache.py", line 356, in load
+  File "renpy/gl2\gl2shadercache.py", line 278, in get
+  File "gl2shader.pyx", line 230, in renpy.gl2.gl2shader.Program.load
+  File "gl2shader.pyx", line 213, in renpy.gl2.gl2shader.Program.load_shader
+renpy.gl2.gl2shader.ShaderError: Compile failed.
+ERROR: 0:4: '' : syntax error (8) #line
+ERROR: 0:155: '' : syntax error (8) #line
+WARNING: 0:4:10 '"' is an invalid character.
+WARNING: 0:4:30 '"' is an invalid character.
+WARNING: 0:86:11 '"' is an invalid character.
+WARNING: 0:86:31 '"' is an invalid character.
+4 compilation warnings.
+
+2 compilation errors. No code generated.
+
+
+Maximum texture size: 4096x4096
+Entered background. --------------------------------------------
+Entering foreground. -------------------------------------------
+Screen sizes: virtual=(1920, 1080) physical=(1600, 720) drawable=(1600, 720)
+Precompiling shader ('remix.smoothstep_outline', 'renpy.texture', 'renpy.texture'):
+Traceback (most recent call last):
+  File "renpy/gl2\gl2shadercache.py", line 356, in load
+  File "renpy/gl2\gl2shadercache.py", line 278, in get
+  File "gl2shader.pyx", line 230, in renpy.gl2.gl2shader.Program.load
+  File "gl2shader.pyx", line 213, in renpy.gl2.gl2shader.Program.load_shader
+renpy.gl2.gl2shader.ShaderError: Compile failed.
+ERROR: 0:4: '' : syntax error (8) #line
+ERROR: 0:155: '' : syntax error (8) #line
+WARNING: 0:4:10 '"' is an invalid character.
+WARNING: 0:4:30 '"' is an invalid character.
+WARNING: 0:86:11 '"' is an invalid character.
+WARNING: 0:86:31 '"' is an invalid character.
+4 compilation warnings.
+
+2 compilation errors. No code generated.
+
+
+Precompiling shader ('remix.smoothstep_outline', 'renpy.geometry', 'renpy.texture'):
+Traceback (most recent call last):
+  File "renpy/gl2\gl2shadercache.py", line 356, in load
+  File "renpy/gl2\gl2shadercache.py", line 278, in get
+  File "gl2shader.pyx", line 230, in renpy.gl2.gl2shader.Program.load
+  File "gl2shader.pyx", line 213, in renpy.gl2.gl2shader.Program.load_shader
+renpy.gl2.gl2shader.ShaderError: Compile failed.
+ERROR: 0:4: '' : syntax error (8) #line
+ERROR: 0:155: '' : syntax error (8) #line
+WARNING: 0:4:10 '"' is an invalid character.
+WARNING: 0:4:30 '"' is an invalid character.
+WARNING: 0:86:11 '"' is an invalid character.
+WARNING: 0:86:31 '"' is an invalid character.
+4 compilation warnings.
+
+2 compilation errors. No code generated.
+
+
+Maximum texture size: 4096x4096
